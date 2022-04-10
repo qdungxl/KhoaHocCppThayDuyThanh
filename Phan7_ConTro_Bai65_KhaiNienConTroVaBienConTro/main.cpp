@@ -9,7 +9,6 @@ int main(int argc, char** argv) {
 	cout<<"Dia chi tai con tro p = "<<p<<endl;
 	cout<<"Gia tri tai dia chi ma on tro p dang tro toi = "<<*p;
 	delete p; //thu hoi bo nho cua con tro.
-	//bi loi Memory leak neu khong thu hoi bo nho.
-	
+	//bi loi Memory leak neu khong thu hoi bo nho.	
 	return 0;
 }
