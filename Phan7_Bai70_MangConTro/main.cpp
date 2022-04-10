@@ -1,0 +1,15 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	int *p[5];
+	for(int i=0;i<5;i++){
+		p[i] = new int; //cap phat bo nho. 
+		*p[i] = i*2;
+	}
+	for(int i=0; i<5;i++){
+		cout<<p[i]<<"=>"<<*p[i]<<endl;
+	}
+	return 0;
+}
