@@ -5,7 +5,7 @@ using namespace std;
 int main(int argc, char** argv) {
 	char *str = "Hello";
 	cout<<str<<endl;
-	char str2[] = "Obam\0a";
+	char str2[] = "Obama";
 	cout<<str2<<endl;
 	char str3[]={'M','A','I','\0'};
 	cout<<str3<<endl;
